@@ -11,8 +11,8 @@ requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 class AdminTool:
     def __init__(self, root):
-        # Change this to your Railway URL
-        self.server_url = 'https://your-app-name.up.railway.app'
+        # Change this to your Render URL
+        self.server_url = 'https://your-app-name.onrender.com'
         self.token = None
         self.root = root
         
